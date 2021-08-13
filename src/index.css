@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Yekan";
+  src: url("./assets/fonts/Yekan-Font/Yekan.eot"); /* IE9 Compat Modes */
+  src: url("./assets/fonts/Yekan-Font/Yekan.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./assets/fonts/Yekan-Font/Yekan.woff2") format("woff2"),
+    /* Modern Browsers */ url("./assets/fonts/Yekan-Font/Yekan.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./assets/fonts/Yekan-Font/Yekan.otf")
+      format("opentype"),
+    /* Open Type Font */ url("./assets/fonts/Yekan-Font/Yekan.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./assets/fonts/Yekan-Font/Yekan.svg#Yekan")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "Yekan" !important;
+}
+
+* {
+  font-family: "Yekan" !important;
+  box-sizing: "border-box";
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.Toastify__toast-body {
+  text-align: right;
+  direction: rtl;
+}
+
+.Toastify__toast {
+  margin-top: 40px;
+  width: 250px;
+}
