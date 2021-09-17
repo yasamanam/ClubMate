@@ -18,6 +18,8 @@ export const useStyles = makeStyles((theme) => ({
     fontSize: "22px",
     background: "green",
     marginTop: "50px",
+    marginBottom: "20px",
+
 
     "&:hover": {
       background: "green",
